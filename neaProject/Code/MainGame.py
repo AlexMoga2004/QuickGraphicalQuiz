@@ -219,7 +219,7 @@ while running:
 
     # Draw the current backgrounds
     for background in backgroundSprites:
-        background.scroll(3)
+        background.scroll(5)
         # Stop rendering backgrounds that are no longer available
         if background.yPos >= 480 * 3:
             backgroundSprites.remove(background)
